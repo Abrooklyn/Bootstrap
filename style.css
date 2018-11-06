@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Niramit|Oswald");
+.header {
+  background-color: grey;
+  font-family: "Oswald";
+  margin-top: -1em;
+  padding: 1em;
+  color: #FFFFFF;
+  font-size: 1.3em;
+}
+
+.container h3 {
+  font-size: 2em;
+}
+
+/*# sourceMappingURL=style.css.map */

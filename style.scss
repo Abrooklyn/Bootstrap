@@ -1,0 +1,26 @@
+//*VARIABLES*//
+
+$color_bckgrnd :grey;
+
+//*IMPORT*//
+
+@import url("https://fonts.googleapis.com/css?family=Niramit|Oswald");
+
+//*STYLE*//
+
+//*--HEADER--*//
+
+.header{
+    background-color: $color_bckgrnd;
+    font-family: 'Oswald';
+    margin-top: -1em;
+    padding: 1em;
+    color: #FFFFFF;
+    font-size: 1.3em;
+}
+
+//*--CONTAINER--*//
+
+.container h3{
+    font-size: 2em;
+}
