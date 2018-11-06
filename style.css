@@ -7,9 +7,51 @@
   color: #FFFFFF;
   font-size: 1.3em;
 }
+.header p {
+  color: #fac699;
+  text-align: center;
+}
 
+.navigation {
+  font-size: 1em;
+}
+.navigation a {
+  color: #FFFFFF;
+}
+.navigation a:hover {
+  color: #e76278;
+}
+.navigation ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.container {
+  font-family: "Niramit";
+  padding: 1em;
+}
 .container h3 {
   font-size: 2em;
+}
+
+.banniere {
+  display: flex;
+  justify-content: center;
+  background-color: #4f8a83;
+  padding-bottom: 1.7em;
+  margin-top: 1em;
+  color: #FFFFFF;
+}
+.banniere button {
+  background-color: #e76278;
+  border: none;
+}
+.banniere button a {
+  color: #FFFFFF;
+}
+.banniere button:hover {
+  background-color: #af1b33;
 }
 
 /*# sourceMappingURL=style.css.map */

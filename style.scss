@@ -1,6 +1,11 @@
 //*VARIABLES*//
 
 $color_bckgrnd :grey;
+$first_color : #4f8a83;
+$second_color : #e76278;
+$third_color : #fac699;
+$fourth_color : #712164;
+
 
 //*IMPORT*//
 
@@ -17,10 +22,53 @@ $color_bckgrnd :grey;
     padding: 1em;
     color: #FFFFFF;
     font-size: 1.3em;
+    p{
+        color: $third_color;
+        text-align: center;
+    }
+}
+
+.navigation{
+    a{
+        color: #FFFFFF;
+    }
+    a:hover{
+        color: $second_color;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    font-size: 1em;
 }
 
 //*--CONTAINER--*//
 
-.container h3{
-    font-size: 2em;
+.container{
+    font-family: 'Niramit';
+    h3{
+        font-size: 2em;
+    }
+    padding: 1em;
+}
+
+.banniere{
+    display: flex;
+    justify-content: center;
+    background-color: $first_color;
+    padding-bottom: 1.7em;
+    margin-top: 1em;
+    color: #FFFFFF;
+    button{
+        background-color: $second_color;
+        border: none;
+        a{
+            color: #FFFFFF;
+        }
+    }
+    button:hover{
+        background-color: darken( $second_color, 25% );
+    }
+
 }
