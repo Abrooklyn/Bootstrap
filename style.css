@@ -54,4 +54,21 @@
   background-color: #af1b33;
 }
 
+.footer {
+  font-size: 1.2em;
+  background-color: #712164;
+}
+.footer a {
+  color: #FFFFFF;
+}
+.footer a:hover {
+  color: #e76278;
+}
+.footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */

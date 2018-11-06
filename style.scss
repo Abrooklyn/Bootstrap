@@ -70,5 +70,21 @@ $fourth_color : #712164;
     button:hover{
         background-color: darken( $second_color, 25% );
     }
+}
 
+.footer{
+    font-size: 1.2em;
+    background-color: $fourth_color;
+    a{
+        color: #FFFFFF;
+    }
+    a:hover{
+        color: $second_color;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        text-align: center;
+    }
 }
